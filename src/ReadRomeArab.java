@@ -4,7 +4,7 @@ public class ReadRomeArab {
     private static int[] numbers = {100,   90, 50,   40,   10,    9,    5,    4,    1 };
     private static String[] letters = {"C",  "XC", "L",  "XL",  "X",  "IX", "V",  "IV", "I" };
 
-    public ReadRomeArab(int arabic) { // вход - целое, выход - римское
+    public ReadRomeArab(int arabic) { // вход - целое, выход - римское b ghjdthrf
         if (arabic < 1) throw new NumberFormatException("Упс... Результат - отрицательное число. Я не умею переводить такие в римские цифры... Срочный выход!");
         num = arabic;
     }
